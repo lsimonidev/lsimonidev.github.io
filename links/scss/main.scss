@@ -11,7 +11,7 @@ body, ul, li{
 }
 
 .container{
-    background: $dark-blue;
+    background-color: $dark-blue;
     min-height: 100vh;
 }
 
@@ -39,8 +39,9 @@ a.btn-link{
     width: 90%;
     margin: 1.2rem 0;
     &:hover{
-        border: solid 2px $pink;
-        color: $pink;
+        background-color: rgba(255, 255, 255, 0.1);
+        border: solid 2px $purple;
+        color: $purple;
     }
 }
 

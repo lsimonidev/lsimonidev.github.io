@@ -1,0 +1,52 @@
+$dark-blue: #060042;
+$purple: #693bcc;
+$pink: #cb1f9c;
+$orange: #F35F1c;
+
+body, ul, li{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background: $dark-blue;
+    min-height: 100vh;
+}
+
+.header{
+    font-family: 'Goldman', cursive;
+    color: #FFFFFF;
+    &__img-profile{
+        width: 15rem;
+        border-radius: 100%;
+    }
+}
+
+.links{
+    text-align: center;
+}
+
+
+a.btn-link{
+    display: block;
+    text-decoration: none;
+    border: solid 2px #FFFFFF;
+    color: #FFFFFF;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    width: 90%;
+    margin: 1.2rem 0;
+    &:hover{
+        border: solid 2px $pink;
+        color: $pink;
+    }
+}
+
+
+.flex-col-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

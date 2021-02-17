@@ -1,0 +1,22 @@
+
+header{
+    background-color: #7C5E99;
+}
+
+a{
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-family: 'Fira Code', monospace;
+    text-decoration: none;
+    margin-right: 1.875rem;
+}
+
+.button{
+    display:inline-block;
+    background-color: #F25A70;
+    padding: 0 1.25rem;
+    height:3.75rem;
+    line-height: 3.75rem;
+    box-shadow: 0.3125rem 0.3125rem 0 #000;
+}

@@ -1,22 +1,44 @@
 
 header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #7C5E99;
+    border-bottom: solid 10px #000 ;
+    padding: 10px 20px;
+}
+
+.logo{
+    width: 60px;
+}
+
+nav{
+    text-align: right;
 }
 
 a{
+    display:inline-flex;
+    align-items: center;
     color: #FFF;
     font-size: 1.25rem;
     font-weight: 500;
     font-family: 'Fira Code', monospace;
     text-decoration: none;
-    margin-right: 1.875rem;
+    margin: 1rem;
+}
+
+a::before{
+    content: "";
+    background-color: #F25A70;
+    height: 10px;
+    width: 10px;
+    margin-right: 10px;
 }
 
 .button{
     display:inline-block;
     background-color: #F25A70;
-    padding: 0 1.25rem;
-    height:3.75rem;
-    line-height: 3.75rem;
+    padding: 1.125rem 1.25rem;
     box-shadow: 0.3125rem 0.3125rem 0 #000;
+    margin-right: 0;
 }

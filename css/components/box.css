@@ -1,0 +1,16 @@
+.box{
+    display: inline-block;
+    background-color: var(--escura);
+    box-shadow: 10px 10px 0px var(--preto);
+    text-align: center;
+    padding: 14px 44px;
+    margin: 38px;
+}
+
+.box .title{
+    margin: 28px 0;
+}
+
+.box .subtitle{
+    margin: 28px 0;
+}

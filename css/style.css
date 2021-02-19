@@ -1,10 +1,17 @@
+:root{
+    --principal:#FF1053;
+    --escura:#4E4C67;
+    --media: #A6B1E1;
+    --branco:#DCD6F7;
+    --preto: #4C3B4D;
+}
 
 header{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #7C5E99;
-    border-bottom: solid 10px #000 ;
+    background-color: var(--escura);
+    border-bottom: solid 10px var(--preto) ;
     padding: 10px 20px;
 }
 
@@ -19,7 +26,7 @@ nav{
 a{
     display:inline-flex;
     align-items: center;
-    color: #FFF;
+    color: var(--branco);
     font-size: 1.25rem;
     font-weight: 500;
     font-family: 'Fira Code', monospace;
@@ -29,16 +36,24 @@ a{
 
 a::before{
     content: "";
-    background-color: #F25A70;
+    background-color: var(--principal);
     height: 10px;
     width: 10px;
     margin-right: 10px;
 }
 
+
 .button{
     display:inline-block;
-    background-color: #F25A70;
+    background-color: var(--principal);
+    color:var(--branco);
     padding: 1.125rem 1.25rem;
-    box-shadow: 0.3125rem 0.3125rem 0 #000;
+    box-shadow: 0.3125rem 0.3125rem 0 var(--preto);
     margin-right: 0;
+    transition: 300ms cubic-bezier(.45,.97,.68,2.48);
+}
+
+.button:hover{
+    filter: contrast(130%);
+    transform: scale(1.08);
 }

@@ -7,3 +7,8 @@
     margin-right: 0;
     transition: 300ms cubic-bezier(.45,.97,.68,2.48);
 }
+
+.button:hover{
+    filter: contrast(130%);
+    transform: scale(1.08);
+}

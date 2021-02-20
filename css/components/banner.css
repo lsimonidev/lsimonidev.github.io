@@ -9,7 +9,7 @@
     padding: 115px 115px;
 }
 
-.banner .wrapper{
+.banner__wrapper{
     display:flex;
     flex-direction: column;
     width: 40vw;
@@ -19,7 +19,7 @@
     margin-bottom: 40px
 }
 
-.banner .navigation{
+.banner__navigation{
     display: flex;
     justify-content: space-evenly;
 }

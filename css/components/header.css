@@ -7,7 +7,7 @@
     padding: 10px 20px;
 }
 
-.logo{
+.header__logo{
     width: 60px;
 }
 
@@ -15,7 +15,7 @@ nav{
     text-align: right;
 }
 
-.nav-link{
+.header__menu_link{
     display:inline-flex;
     align-items: center;
     color: var(--branco);
@@ -26,7 +26,7 @@ nav{
     margin: 1rem;
 }
 
-.nav-link::before{
+.header__menu_link::before{
     content: "";
     background-color: var(--principal);
     height: 10px;

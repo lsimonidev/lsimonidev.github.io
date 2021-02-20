@@ -6,6 +6,11 @@
     box-shadow: 0.3125rem 0.3125rem 0 var(--preto);
     margin-right: 0;
     transition: 300ms cubic-bezier(.45,.97,.68,2.48);
+    color: var(--branco);
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-family: 'Fira Code', monospace;
+    text-decoration: none;
 }
 
 .button:hover{

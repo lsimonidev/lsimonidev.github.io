@@ -5,6 +5,7 @@
     background-color: var(--escura);
     border-bottom: solid 10px var(--preto) ;
     padding: 10px 20px;
+    height: 10vh;
 }
 
 .header__logo{

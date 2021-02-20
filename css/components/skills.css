@@ -6,13 +6,3 @@
     padding:40px;
 }
 
-.skills .title{
-    color: var(--branco);
-    text-shadow:none;
-    text-align: center;
-}
-
-.skills .subtitle{
-    font-size: 25px;
-    text-shadow: none;
-}

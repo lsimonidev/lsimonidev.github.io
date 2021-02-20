@@ -1,0 +1,18 @@
+.section{
+    background-color: var(--principal);
+    height:90vh;
+    padding-top:50px;
+    padding-bottom:100px;
+    border-bottom: 10px solid var(--escura);
+}
+
+.section .title{
+    color: var(--branco);
+    text-shadow:none;
+    text-align: center;
+}
+
+.section .subtitle{
+    font-size: 25px;
+    text-shadow: none;
+}

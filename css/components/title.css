@@ -1,7 +1,6 @@
-.box__title{
+.title{
     font-family: 'Press Start 2P', cursive;
     font-size: 40px;
     color: var(--principal);
     text-shadow: 4px 4px 0px var(--preto);
 }
-

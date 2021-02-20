@@ -6,10 +6,10 @@
     padding: 14px 44px;
 }
 
-.box__title{
+.box .title{
     margin: 28px 0;
 }
 
-.box__subtitle{
+.box .subtitle{
     margin: 28px 0;
 }

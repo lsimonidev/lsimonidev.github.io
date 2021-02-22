@@ -1,0 +1,16 @@
+.skill{
+    display: flex;
+    background-color: var(--principal);
+    padding:40px;
+}
+
+.skill .icon{
+    margin-right: 25px;
+}
+
+.skill .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+

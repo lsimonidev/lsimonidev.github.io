@@ -1,0 +1,19 @@
+.progressBar{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    background-color: var(--branco);
+    border: 5px solid var(--preto);
+    height: 40px;
+    width: 320px;
+}
+
+.progressBar::-webkit-progress-bar{
+    background-color: var(--branco);
+}
+
+.progress::-webkit-progress-value,
+.progress::-moz-progress-value{
+    background-color: red;
+}

@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="./css/components/box.css">
 
     <link rel="stylesheet" href="./css/components/section.css">
-    <link rel="stylesheet" href="./css/components/skills.css">
+    <link rel="stylesheet" href="./css/components/skill.css">
+    <link rel="stylesheet" href="./css/components/progressBar.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -46,14 +47,17 @@
         </div>
     </section>
 
-    <section class="section skills">
+    <section class="section">
         <h1 class="title">Skills</h1>
-
-        <dl>
-            <dd><img src="./assets/img/ico_html5.png" alt="Logo do HTML5 em PixelArt" class="skills__logo"></dd>
-            <dt class="subtitle">HTML</dt>
-            <dd> <progress id="file" max="100" value="70"> 70% </progress> </dd>
-        </dl>
+        <article class="skill">
+            <img src="./assets/img/ico_html5.png" alt="Logo do HTML5 em PixelArt" class="icon">
+            
+            <div class="right">
+                <h3 class="subtitle">HTML</h3>
+                <progress id="file" max="100" value="70" class="progressBar"> 70% </progress>
+            </div>
+            
+        </article>
     </section>
 
     <section class="section projetos">

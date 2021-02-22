@@ -1,16 +1,33 @@
 .skill{
     display: flex;
+    box-sizing: border-box;
     background-color: var(--principal);
-    padding:40px;
+    padding:20px 0;
+    align-items: center;
+    height: 90px;
+    margin-bottom: 40px;
 }
 
 .skill .icon{
-    margin-right: 25px;
+    margin-right: 20px;
+    width: 90px;
 }
 
 .skill .right{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    height: 90px;
 }
 
+.wrapper-skill{
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 960px;
+}
+
+.skill:nth-child(odd){
+    margin-right: 100px;
+}
